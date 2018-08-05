@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 120b8d723b068491ca0c1844117a1a74, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  BulletPrefabs:
+  - WeaponId: 0
+    Prefab: {fileID: 114571592707249086, guid: a91c0b0aa56744f2a85b4d54085fbe4e, type: 2}
+  - WeaponId: 1
+    Prefab: {fileID: 114571592707249086, guid: d65cd33b93cfa47e680e5257c3143908, type: 2}
+  - WeaponId: 2
+    Prefab: {fileID: 114571592707249086, guid: 94bcd7e222acb49afbc04ac5f01963d0, type: 2}
+  - WeaponId: 3
+    Prefab: {fileID: 114571592707249086, guid: 3dd4f60abe64a46e5a14cc43d937c012, type: 2}
+  - WeaponId: 4
+    Prefab: {fileID: 114571592707249086, guid: 7328dda5bd4d44a8985e7eb4e5dc4a3a, type: 2}
+  HorizontalLimit: 13
+  TopPositionLimit: 25
+  PixelsToWorld: 0.041935485
